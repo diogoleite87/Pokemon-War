@@ -1,3 +1,3 @@
-# Pokemon war
+# Pokemon War
 
 > First study using API
