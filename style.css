@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    text-align: center;
+    background-color: rgb(197, 194, 194);
+}
+
+#container1 {
+    width: 200px;
+    background-color: #5754e6;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px black;
+    margin: 10% auto 10px;
+    margin-top: -40px;
+    padding: 5px;
+}
+
+#container2 {
+    width: 200px;
+    background-color: #e44e4e;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px black;
+    margin: 10% auto 10px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+button {
+    width: 100px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px black;
+    margin: 10% auto 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#hp, #hp2 {
+    color: rgb(32, 240, 32);
+}
+
+#baseAtaque, #baseAtaque2 {
+    color: #edf064;
+}
+
+#imgtitulo {
+    margin-top: -80px;
+}

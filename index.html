@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guerra de Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/pokeapi.png">
+</head>
+<body>
+
+    <div id="titulo">
+        <h1>Guerra de Pokemon</h1>
+        <h4>Ao clicar no botão "Sortear", serão sorteados 1 Pokemon para cada jogador,
+            no total são 150 Pokemons disponiveis.
+        </h4>
+        <img id="imgtitulo" src="img/pokeapi.png">
+    </div>
+    <div id="container1">
+        <h2 id="nome">Jogador 1</h2>
+        <img id="pic">
+        <h3 id="numero">ID</h3>
+        <h3 id="hp">HP</h3>
+        <h3 id="baseAtaque">Ataque Base</h3>
+    </div>
+
+    <div id="container2">
+        <h2 id="nome2">Jogador 2</h2>
+        <img id="pic2">
+        <h3 id="numero2">ID</h3>
+        <h3 id="hp2">HP</h3>
+        <h3 id="baseAtaque2">Ataque Base</h3>
+    </div>
+
+    <div>
+        <h2 id="resultado"></h2>
+        <button id="btn1">SORTEAR</button>
+        <button id="btn2" disabled="true" >LUTAR</button>
+        <br>
+        <button id="btn3" disabled="true">JOGAR NOVAMENTE</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
